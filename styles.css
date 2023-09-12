@@ -1,0 +1,76 @@
+:root {
+    --main-text-font: font-family: 'Roboto', sans-serif;
+}
+
+
+
+.main-container {
+    /*border: 5px solid red; */
+    display: flex;
+    
+
+}
+
+.form-container {
+  
+   margin-top: 220px;
+   
+   
+   
+    
+   
+}
+
+.image {
+    width: 570px;
+    height: 100vh
+    
+}
+.form {
+    margin-left: 20px;
+    /*margin: 100px ; */
+    background-color: rgb(159, 159, 206);
+    box-shadow: 5px 5px 5px;
+    height: 200px;
+    width: 600px;
+    display: flex;
+    
+    justify-content: left;
+    gap: 50px;
+    font-family: var(--main-text-font);  
+    
+    
+   
+    
+}
+
+.form input {
+    margin-left: 60px;
+    font-family: var(--main-text-font);
+   
+    
+}
+
+.form label {
+    margin-left: 60px;
+    font-family: var(--main-text-font);
+    font-size: medium;
+    
+}
+
+
+
+
+#submit {
+    margin-top: 40px;
+    font-size: large;
+    
+    
+    
+   
+    
+}
+
+ p {
+    margin-left: 100px;
+ }
